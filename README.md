@@ -7,6 +7,26 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
+## UI — shadcn/ui
+
+В проект подключён [shadcn/ui](https://ui.shadcn.com/) (на Tailwind CSS v4 и Radix UI). Настроены плагин `@tailwindcss/vite`, алиас `@/*` → `src/*` и токены темы в [`src/index.css`](./src/index.css); конфиг CLI — [`components.json`](./components.json).
+
+Компоненты копируются в [`src/components/ui`](./src/components/ui), утилита `cn` живёт в [`src/lib/utils.ts`](./src/lib/utils.ts). Добавить новый компонент:
+
+```bash
+npx shadcn@latest add <component>   # например: npx shadcn@latest add dialog
+```
+
+Использование:
+
+```tsx
+import { Button } from '@/components/ui/button'
+
+<Button variant="outline">Click</Button>
+```
+
+Тёмная тема — через класс `dark` на `<html>`. Пример кнопок есть в [`src/App.tsx`](./src/App.tsx).
+
 ## Фейковый API (my-json-server)
 
 Данные — [`db.json`](./db.json), раздаются из ветки `main`. Base URL: `https://my-json-server.typicode.com/ProjectINT/empty-react-template`.

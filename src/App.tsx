@@ -2,6 +2,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
+import { Button } from '@/components/ui/button'
 import './App.css'
 
 function App() {
@@ -28,6 +29,15 @@ function App() {
         >
           Count is {count}
         </button>
+
+        <div className="mt-6 flex justify-center gap-3">
+          <Button onClick={() => setCount((count) => count + 1)}>
+            shadcn/ui Button
+          </Button>
+          <Button variant="outline" onClick={() => setCount(0)}>
+            Reset
+          </Button>
+        </div>
       </section>
 
       <div className="ticks"></div>
