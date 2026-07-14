@@ -1,395 +1,46 @@
 {
   "users": [
-    {
-      "id": 1,
-      "name": "Ada Lovelace",
-      "username": "ada.lovelace",
-      "email": "ada.lovelace@example.com",
-      "role": "admin",
-      "active": false,
-      "avatar": "https://i.pravatar.cc/150?u=ada.lovelace",
-      "createdAt": "2024-01-01T09:00:00.000Z"
-    },
-    {
-      "id": 2,
-      "name": "Grace Hopper",
-      "username": "grace.hopper",
-      "email": "grace.hopper@example.com",
-      "role": "admin",
-      "active": true,
-      "avatar": "https://i.pravatar.cc/150?u=grace.hopper",
-      "createdAt": "2024-02-02T09:00:00.000Z"
-    },
-    {
-      "id": 3,
-      "name": "Alan Turing",
-      "username": "alan.turing",
-      "email": "alan.turing@example.com",
-      "role": "manager",
-      "active": true,
-      "avatar": "https://i.pravatar.cc/150?u=alan.turing",
-      "createdAt": "2024-03-03T09:00:00.000Z"
-    },
-    {
-      "id": 4,
-      "name": "Linus Torvalds",
-      "username": "linus.torvalds",
-      "email": "linus.torvalds@example.com",
-      "role": "manager",
-      "active": true,
-      "avatar": "https://i.pravatar.cc/150?u=linus.torvalds",
-      "createdAt": "2024-04-04T09:00:00.000Z"
-    },
-    {
-      "id": 5,
-      "name": "Margaret Hamilton",
-      "username": "margaret.hamilton",
-      "email": "margaret.hamilton@example.com",
-      "role": "manager",
-      "active": true,
-      "avatar": "https://i.pravatar.cc/150?u=margaret.hamilton",
-      "createdAt": "2024-05-05T09:00:00.000Z"
-    },
-    {
-      "id": 6,
-      "name": "Barbara Liskov",
-      "username": "barbara.liskov",
-      "email": "barbara.liskov@example.com",
-      "role": "manager",
-      "active": true,
-      "avatar": "https://i.pravatar.cc/150?u=barbara.liskov",
-      "createdAt": "2024-06-06T09:00:00.000Z"
-    },
-    {
-      "id": 7,
-      "name": "Donald Knuth",
-      "username": "donald.knuth",
-      "email": "donald.knuth@example.com",
-      "role": "manager",
-      "active": true,
-      "avatar": "https://i.pravatar.cc/150?u=donald.knuth",
-      "createdAt": "2024-07-07T09:00:00.000Z"
-    },
-    {
-      "id": 8,
-      "name": "Katherine Johnson",
-      "username": "katherine.johnson",
-      "email": "katherine.johnson@example.com",
-      "role": "editor",
-      "active": false,
-      "avatar": "https://i.pravatar.cc/150?u=katherine.johnson",
-      "createdAt": "2024-08-08T09:00:00.000Z"
-    },
-    {
-      "id": 9,
-      "name": "Dennis Ritchie",
-      "username": "dennis.ritchie",
-      "email": "dennis.ritchie@example.com",
-      "role": "editor",
-      "active": true,
-      "avatar": "https://i.pravatar.cc/150?u=dennis.ritchie",
-      "createdAt": "2024-09-09T09:00:00.000Z"
-    },
-    {
-      "id": 10,
-      "name": "Radia Perlman",
-      "username": "radia.perlman",
-      "email": "radia.perlman@example.com",
-      "role": "editor",
-      "active": true,
-      "avatar": "https://i.pravatar.cc/150?u=radia.perlman",
-      "createdAt": "2024-10-10T09:00:00.000Z"
-    },
-    {
-      "id": 11,
-      "name": "Ken Thompson",
-      "username": "ken.thompson",
-      "email": "ken.thompson@example.com",
-      "role": "editor",
-      "active": true,
-      "avatar": "https://i.pravatar.cc/150?u=ken.thompson",
-      "createdAt": "2024-11-11T09:00:00.000Z"
-    },
-    {
-      "id": 12,
-      "name": "Frances Allen",
-      "username": "frances.allen",
-      "email": "frances.allen@example.com",
-      "role": "editor",
-      "active": true,
-      "avatar": "https://i.pravatar.cc/150?u=frances.allen",
-      "createdAt": "2024-12-12T09:00:00.000Z"
-    },
-    {
-      "id": 13,
-      "name": "Tim Berners-Lee",
-      "username": "tim.bernerslee",
-      "email": "tim.bernerslee@example.com",
-      "role": "editor",
-      "active": true,
-      "avatar": "https://i.pravatar.cc/150?u=tim.bernerslee",
-      "createdAt": "2024-01-13T09:00:00.000Z"
-    },
-    {
-      "id": 14,
-      "name": "Anita Borg",
-      "username": "anita.borg",
-      "email": "anita.borg@example.com",
-      "role": "editor",
-      "active": true,
-      "avatar": "https://i.pravatar.cc/150?u=anita.borg",
-      "createdAt": "2024-02-14T09:00:00.000Z"
-    },
-    {
-      "id": 15,
-      "name": "Edsger Dijkstra",
-      "username": "edsger.dijkstra",
-      "email": "edsger.dijkstra@example.com",
-      "role": "editor",
-      "active": false,
-      "avatar": "https://i.pravatar.cc/150?u=edsger.dijkstra",
-      "createdAt": "2024-03-15T09:00:00.000Z"
-    },
-    {
-      "id": 16,
-      "name": "Jean Bartik",
-      "username": "jean.bartik",
-      "email": "jean.bartik@example.com",
-      "role": "editor",
-      "active": true,
-      "avatar": "https://i.pravatar.cc/150?u=jean.bartik",
-      "createdAt": "2024-04-16T09:00:00.000Z"
-    },
-    {
-      "id": 17,
-      "name": "Guido van Rossum",
-      "username": "guido.van.rossum",
-      "email": "guido.van.rossum@example.com",
-      "role": "user",
-      "active": true,
-      "avatar": "https://i.pravatar.cc/150?u=guido.van.rossum",
-      "createdAt": "2024-05-17T09:00:00.000Z"
-    },
-    {
-      "id": 18,
-      "name": "Adele Goldberg",
-      "username": "adele.goldberg",
-      "email": "adele.goldberg@example.com",
-      "role": "user",
-      "active": true,
-      "avatar": "https://i.pravatar.cc/150?u=adele.goldberg",
-      "createdAt": "2024-06-18T09:00:00.000Z"
-    },
-    {
-      "id": 19,
-      "name": "Bjarne Stroustrup",
-      "username": "bjarne.stroustrup",
-      "email": "bjarne.stroustrup@example.com",
-      "role": "user",
-      "active": true,
-      "avatar": "https://i.pravatar.cc/150?u=bjarne.stroustrup",
-      "createdAt": "2024-07-19T09:00:00.000Z"
-    },
-    {
-      "id": 20,
-      "name": "Karen Spark Jones",
-      "username": "karen.spark.jones",
-      "email": "karen.spark.jones@example.com",
-      "role": "user",
-      "active": true,
-      "avatar": "https://i.pravatar.cc/150?u=karen.spark.jones",
-      "createdAt": "2024-08-20T09:00:00.000Z"
-    },
-    {
-      "id": 21,
-      "name": "John Carmack",
-      "username": "john.carmack",
-      "email": "john.carmack@example.com",
-      "role": "user",
-      "active": true,
-      "avatar": "https://i.pravatar.cc/150?u=john.carmack",
-      "createdAt": "2024-09-21T09:00:00.000Z"
-    },
-    {
-      "id": 22,
-      "name": "Shafi Goldwasser",
-      "username": "shafi.goldwasser",
-      "email": "shafi.goldwasser@example.com",
-      "role": "user",
-      "active": false,
-      "avatar": "https://i.pravatar.cc/150?u=shafi.goldwasser",
-      "createdAt": "2024-10-22T09:00:00.000Z"
-    },
-    {
-      "id": 23,
-      "name": "Rich Hickey",
-      "username": "rich.hickey",
-      "email": "rich.hickey@example.com",
-      "role": "user",
-      "active": true,
-      "avatar": "https://i.pravatar.cc/150?u=rich.hickey",
-      "createdAt": "2024-11-23T09:00:00.000Z"
-    },
-    {
-      "id": 24,
-      "name": "Carla Meninsky",
-      "username": "carla.meninsky",
-      "email": "carla.meninsky@example.com",
-      "role": "user",
-      "active": true,
-      "avatar": "https://i.pravatar.cc/150?u=carla.meninsky",
-      "createdAt": "2024-12-24T09:00:00.000Z"
-    },
-    {
-      "id": 25,
-      "name": "Brendan Eich",
-      "username": "brendan.eich",
-      "email": "brendan.eich@example.com",
-      "role": "user",
-      "active": true,
-      "avatar": "https://i.pravatar.cc/150?u=brendan.eich",
-      "createdAt": "2024-01-25T09:00:00.000Z"
-    },
-    {
-      "id": 26,
-      "name": "Sophie Wilson",
-      "username": "sophie.wilson",
-      "email": "sophie.wilson@example.com",
-      "role": "user",
-      "active": true,
-      "avatar": "https://i.pravatar.cc/150?u=sophie.wilson",
-      "createdAt": "2024-02-26T09:00:00.000Z"
-    },
-    {
-      "id": 27,
-      "name": "Yukihiro Matsumoto",
-      "username": "yukihiro.matsumoto",
-      "email": "yukihiro.matsumoto@example.com",
-      "role": "user",
-      "active": true,
-      "avatar": "https://i.pravatar.cc/150?u=yukihiro.matsumoto",
-      "createdAt": "2024-03-27T09:00:00.000Z"
-    },
-    {
-      "id": 28,
-      "name": "Lynn Conway",
-      "username": "lynn.conway",
-      "email": "lynn.conway@example.com",
-      "role": "user",
-      "active": true,
-      "avatar": "https://i.pravatar.cc/150?u=lynn.conway",
-      "createdAt": "2024-04-28T09:00:00.000Z"
-    },
-    {
-      "id": 29,
-      "name": "Rasmus Lerdorf",
-      "username": "rasmus.lerdorf",
-      "email": "rasmus.lerdorf@example.com",
-      "role": "user",
-      "active": false,
-      "avatar": "https://i.pravatar.cc/150?u=rasmus.lerdorf",
-      "createdAt": "2024-05-01T09:00:00.000Z"
-    },
-    {
-      "id": 30,
-      "name": "Evelyn Boyd Granville",
-      "username": "evelyn.boyd.granville",
-      "email": "evelyn.boyd.granville@example.com",
-      "role": "user",
-      "active": true,
-      "avatar": "https://i.pravatar.cc/150?u=evelyn.boyd.granville",
-      "createdAt": "2024-06-02T09:00:00.000Z"
-    },
-    {
-      "id": 31,
-      "name": "Vint Cerf",
-      "username": "vint.cerf",
-      "email": "vint.cerf@example.com",
-      "role": "user",
-      "active": true,
-      "avatar": "https://i.pravatar.cc/150?u=vint.cerf",
-      "createdAt": "2024-07-03T09:00:00.000Z"
-    },
-    {
-      "id": 32,
-      "name": "Mary Allen Wilkes",
-      "username": "mary.allen.wilkes",
-      "email": "mary.allen.wilkes@example.com",
-      "role": "user",
-      "active": true,
-      "avatar": "https://i.pravatar.cc/150?u=mary.allen.wilkes",
-      "createdAt": "2024-08-04T09:00:00.000Z"
-    },
-    {
-      "id": 33,
-      "name": "James Gosling",
-      "username": "james.gosling",
-      "email": "james.gosling@example.com",
-      "role": "user",
-      "active": true,
-      "avatar": "https://i.pravatar.cc/150?u=james.gosling",
-      "createdAt": "2024-09-05T09:00:00.000Z"
-    },
-    {
-      "id": 34,
-      "name": "Erna Hoover",
-      "username": "erna.hoover",
-      "email": "erna.hoover@example.com",
-      "role": "user",
-      "active": true,
-      "avatar": "https://i.pravatar.cc/150?u=erna.hoover",
-      "createdAt": "2024-10-06T09:00:00.000Z"
-    },
-    {
-      "id": 35,
-      "name": "Douglas Engelbart",
-      "username": "douglas.engelbart",
-      "email": "douglas.engelbart@example.com",
-      "role": "user",
-      "active": true,
-      "avatar": "https://i.pravatar.cc/150?u=douglas.engelbart",
-      "createdAt": "2024-11-07T09:00:00.000Z"
-    }
+    {"id":1,"name":"Ada Lovelace","username":"ada.lovelace","email":"ada.lovelace@example.com","role":"admin","active":false,"avatar":"https://i.pravatar.cc/150?u=ada.lovelace","createdAt":"2024-01-01T09:00:00.000Z"},
+    {"id":2,"name":"Grace Hopper","username":"grace.hopper","email":"grace.hopper@example.com","role":"admin","active":true,"avatar":"https://i.pravatar.cc/150?u=grace.hopper","createdAt":"2024-02-02T09:00:00.000Z"},
+    {"id":3,"name":"Alan Turing","username":"alan.turing","email":"alan.turing@example.com","role":"manager","active":true,"avatar":"https://i.pravatar.cc/150?u=alan.turing","createdAt":"2024-03-03T09:00:00.000Z"},
+    {"id":4,"name":"Linus Torvalds","username":"linus.torvalds","email":"linus.torvalds@example.com","role":"manager","active":true,"avatar":"https://i.pravatar.cc/150?u=linus.torvalds","createdAt":"2024-04-04T09:00:00.000Z"},
+    {"id":5,"name":"Margaret Hamilton","username":"margaret.hamilton","email":"margaret.hamilton@example.com","role":"manager","active":true,"avatar":"https://i.pravatar.cc/150?u=margaret.hamilton","createdAt":"2024-05-05T09:00:00.000Z"},
+    {"id":6,"name":"Barbara Liskov","username":"barbara.liskov","email":"barbara.liskov@example.com","role":"manager","active":true,"avatar":"https://i.pravatar.cc/150?u=barbara.liskov","createdAt":"2024-06-06T09:00:00.000Z"},
+    {"id":7,"name":"Donald Knuth","username":"donald.knuth","email":"donald.knuth@example.com","role":"manager","active":true,"avatar":"https://i.pravatar.cc/150?u=donald.knuth","createdAt":"2024-07-07T09:00:00.000Z"},
+    {"id":8,"name":"Katherine Johnson","username":"katherine.johnson","email":"katherine.johnson@example.com","role":"editor","active":false,"avatar":"https://i.pravatar.cc/150?u=katherine.johnson","createdAt":"2024-08-08T09:00:00.000Z"},
+    {"id":9,"name":"Dennis Ritchie","username":"dennis.ritchie","email":"dennis.ritchie@example.com","role":"editor","active":true,"avatar":"https://i.pravatar.cc/150?u=dennis.ritchie","createdAt":"2024-09-09T09:00:00.000Z"},
+    {"id":10,"name":"Radia Perlman","username":"radia.perlman","email":"radia.perlman@example.com","role":"editor","active":true,"avatar":"https://i.pravatar.cc/150?u=radia.perlman","createdAt":"2024-10-10T09:00:00.000Z"},
+    {"id":11,"name":"Ken Thompson","username":"ken.thompson","email":"ken.thompson@example.com","role":"editor","active":true,"avatar":"https://i.pravatar.cc/150?u=ken.thompson","createdAt":"2024-11-11T09:00:00.000Z"},
+    {"id":12,"name":"Frances Allen","username":"frances.allen","email":"frances.allen@example.com","role":"editor","active":true,"avatar":"https://i.pravatar.cc/150?u=frances.allen","createdAt":"2024-12-12T09:00:00.000Z"},
+    {"id":13,"name":"Tim Berners-Lee","username":"tim.bernerslee","email":"tim.bernerslee@example.com","role":"editor","active":true,"avatar":"https://i.pravatar.cc/150?u=tim.bernerslee","createdAt":"2024-01-13T09:00:00.000Z"},
+    {"id":14,"name":"Anita Borg","username":"anita.borg","email":"anita.borg@example.com","role":"editor","active":true,"avatar":"https://i.pravatar.cc/150?u=anita.borg","createdAt":"2024-02-14T09:00:00.000Z"},
+    {"id":15,"name":"Edsger Dijkstra","username":"edsger.dijkstra","email":"edsger.dijkstra@example.com","role":"editor","active":false,"avatar":"https://i.pravatar.cc/150?u=edsger.dijkstra","createdAt":"2024-03-15T09:00:00.000Z"},
+    {"id":16,"name":"Jean Bartik","username":"jean.bartik","email":"jean.bartik@example.com","role":"editor","active":true,"avatar":"https://i.pravatar.cc/150?u=jean.bartik","createdAt":"2024-04-16T09:00:00.000Z"},
+    {"id":17,"name":"Guido van Rossum","username":"guido.van.rossum","email":"guido.van.rossum@example.com","role":"user","active":true,"avatar":"https://i.pravatar.cc/150?u=guido.van.rossum","createdAt":"2024-05-17T09:00:00.000Z"},
+    {"id":18,"name":"Adele Goldberg","username":"adele.goldberg","email":"adele.goldberg@example.com","role":"user","active":true,"avatar":"https://i.pravatar.cc/150?u=adele.goldberg","createdAt":"2024-06-18T09:00:00.000Z"},
+    {"id":19,"name":"Bjarne Stroustrup","username":"bjarne.stroustrup","email":"bjarne.stroustrup@example.com","role":"user","active":true,"avatar":"https://i.pravatar.cc/150?u=bjarne.stroustrup","createdAt":"2024-07-19T09:00:00.000Z"},
+    {"id":20,"name":"Karen Spark Jones","username":"karen.spark.jones","email":"karen.spark.jones@example.com","role":"user","active":true,"avatar":"https://i.pravatar.cc/150?u=karen.spark.jones","createdAt":"2024-08-20T09:00:00.000Z"},
+    {"id":21,"name":"John Carmack","username":"john.carmack","email":"john.carmack@example.com","role":"user","active":true,"avatar":"https://i.pravatar.cc/150?u=john.carmack","createdAt":"2024-09-21T09:00:00.000Z"},
+    {"id":22,"name":"Shafi Goldwasser","username":"shafi.goldwasser","email":"shafi.goldwasser@example.com","role":"user","active":false,"avatar":"https://i.pravatar.cc/150?u=shafi.goldwasser","createdAt":"2024-10-22T09:00:00.000Z"},
+    {"id":23,"name":"Rich Hickey","username":"rich.hickey","email":"rich.hickey@example.com","role":"user","active":true,"avatar":"https://i.pravatar.cc/150?u=rich.hickey","createdAt":"2024-11-23T09:00:00.000Z"},
+    {"id":24,"name":"Carla Meninsky","username":"carla.meninsky","email":"carla.meninsky@example.com","role":"user","active":true,"avatar":"https://i.pravatar.cc/150?u=carla.meninsky","createdAt":"2024-12-24T09:00:00.000Z"},
+    {"id":25,"name":"Brendan Eich","username":"brendan.eich","email":"brendan.eich@example.com","role":"user","active":true,"avatar":"https://i.pravatar.cc/150?u=brendan.eich","createdAt":"2024-01-25T09:00:00.000Z"},
+    {"id":26,"name":"Sophie Wilson","username":"sophie.wilson","email":"sophie.wilson@example.com","role":"user","active":true,"avatar":"https://i.pravatar.cc/150?u=sophie.wilson","createdAt":"2024-02-26T09:00:00.000Z"},
+    {"id":27,"name":"Yukihiro Matsumoto","username":"yukihiro.matsumoto","email":"yukihiro.matsumoto@example.com","role":"user","active":true,"avatar":"https://i.pravatar.cc/150?u=yukihiro.matsumoto","createdAt":"2024-03-27T09:00:00.000Z"},
+    {"id":28,"name":"Lynn Conway","username":"lynn.conway","email":"lynn.conway@example.com","role":"user","active":true,"avatar":"https://i.pravatar.cc/150?u=lynn.conway","createdAt":"2024-04-28T09:00:00.000Z"},
+    {"id":29,"name":"Rasmus Lerdorf","username":"rasmus.lerdorf","email":"rasmus.lerdorf@example.com","role":"user","active":false,"avatar":"https://i.pravatar.cc/150?u=rasmus.lerdorf","createdAt":"2024-05-01T09:00:00.000Z"},
+    {"id":30,"name":"Evelyn Boyd Granville","username":"evelyn.boyd.granville","email":"evelyn.boyd.granville@example.com","role":"user","active":true,"avatar":"https://i.pravatar.cc/150?u=evelyn.boyd.granville","createdAt":"2024-06-02T09:00:00.000Z"},
+    {"id":31,"name":"Vint Cerf","username":"vint.cerf","email":"vint.cerf@example.com","role":"user","active":true,"avatar":"https://i.pravatar.cc/150?u=vint.cerf","createdAt":"2024-07-03T09:00:00.000Z"},
+    {"id":32,"name":"Mary Allen Wilkes","username":"mary.allen.wilkes","email":"mary.allen.wilkes@example.com","role":"user","active":true,"avatar":"https://i.pravatar.cc/150?u=mary.allen.wilkes","createdAt":"2024-08-04T09:00:00.000Z"},
+    {"id":33,"name":"James Gosling","username":"james.gosling","email":"james.gosling@example.com","role":"user","active":true,"avatar":"https://i.pravatar.cc/150?u=james.gosling","createdAt":"2024-09-05T09:00:00.000Z"},
+    {"id":34,"name":"Erna Hoover","username":"erna.hoover","email":"erna.hoover@example.com","role":"user","active":true,"avatar":"https://i.pravatar.cc/150?u=erna.hoover","createdAt":"2024-10-06T09:00:00.000Z"},
+    {"id":35,"name":"Douglas Engelbart","username":"douglas.engelbart","email":"douglas.engelbart@example.com","role":"user","active":true,"avatar":"https://i.pravatar.cc/150?u=douglas.engelbart","createdAt":"2024-11-07T09:00:00.000Z"}
   ],
   "roles": [
-    {
-      "id": "admin",
-      "title": "Administrator",
-      "permissions": [
-        "read",
-        "write",
-        "delete",
-        "manage_users"
-      ]
-    },
-    {
-      "id": "manager",
-      "title": "Manager",
-      "permissions": [
-        "read",
-        "write",
-        "manage_users"
-      ]
-    },
-    {
-      "id": "editor",
-      "title": "Editor",
-      "permissions": [
-        "read",
-        "write"
-      ]
-    },
-    {
-      "id": "user",
-      "title": "User",
-      "permissions": [
-        "read"
-      ]
-    }
+    {"id":"admin","title":"Administrator","permissions":["read","write","delete","manage_users"]},
+    {"id":"manager","title":"Manager","permissions":["read","write","manage_users"]},
+    {"id":"editor","title":"Editor","permissions":["read","write"]},
+    {"id":"user","title":"User","permissions":["read"]}
   ],
-  "profile": {
-    "name": "Ada Lovelace",
-    "role": "admin",
-    "email": "ada.lovelace@example.com"
-  }
+  "profile": {"name":"Ada Lovelace","role":"admin","email":"ada.lovelace@example.com"}
 }
