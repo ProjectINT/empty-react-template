@@ -30,7 +30,7 @@ import { Button } from '@/components/ui/button'
 ## Фейковый API (my-json-server)
 
 Данные — [`db.json`](./db.json), раздаются из ветки `main`. Base URL: `https://my-json-server.typicode.com/ProjectINT/empty-react-template`.
-Ресурсы: `users` (`id`, `name`, `username`, `email`, `role`, `active`, `avatar`, `createdAt`), `roles` (`admin`, `manager`, `editor`, `user`), `profile`.
+Ресурсы: `users` (`id`, `name`, `username`, `email`, `phone`, `role`, `active`, `avatar`, `createdAt`), `roles` (`admin`, `manager`, `editor`, `user`), `profile`.
 Запись фейковая: методы отвечают корректно, но данные не сохраняются. Кэш ~1 мин, лимит `db.json` — 10 000 байт (иначе `507`).
 
 | Метод | Путь | Ответ |
